@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Define standard dimensions to comply with Holo-style grids and rhythm. -->
+ 
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+ 
+    <!-- Semantic definitions -->
+ 
+    <dimen name="horizontal_page_margin">@dimen/margin_medium</dimen>
+    <dimen name="vertical_page_margin">@dimen/margin_medium</dimen>
+    
+    <dimen name="list_item_height">72dp</dimen>
+    <dimen name="list_item_width">144dp</dimen>
+    
+    <dimen name="icon_padding">12dp</dimen>
+    <dimen name="browse_item_height">168dp</dimen>
+    <dimen name="browse_item_width">168dp</dimen>
+    <dimen name="browse_item_icon_height">112dp</dimen>
+    <dimen name="browse_item_icon_width">112dp</dimen>
+    <dimen name="browse_item_text_marginHor">12dp</dimen>
+    <dimen name="browse_item_description_marginBottom">9dp</dimen>
+    <dimen name="browse_item_title_marginBottom">29dp</dimen>
+    
+    <dimen name="browse_item_title_font_size">16sp</dimen>
+    <dimen name="browse_item_title_font_size_small">12sp</dimen>
+    <dimen name="browse_item_description_font_size">14sp</dimen>
+</resources>

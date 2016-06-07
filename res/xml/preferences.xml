@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:preference="http://schemas.android.com/apk/res-auto" >
+
+    <Preference
+        preference:icon="@drawable/ic_settings_datetime"
+        preference:key="date_time"
+        preference:title="@string/system_date_time" >
+    </Preference>
+    <Preference
+        preference:icon="@drawable/ic_settings_language"
+        preference:key="language"
+        preference:title="@string/system_language" >
+    </Preference>
+    <Preference
+        preference:icon="@drawable/ic_settings_keyboard"
+        preference:key="keyboard"
+        preference:title="@string/system_keyboard" >
+    </Preference>
+    <Preference
+        preference:icon="@drawable/ic_settings_home"
+        preference:key="home"
+        preference:title="@string/system_home" >
+    </Preference>
+    <Preference
+        preference:icon="@drawable/ic_settings_search"
+        preference:key="search"
+        preference:title="@string/system_search" >
+    </Preference>
+    <Preference
+        preference:icon="@drawable/ic_settings_texttospeach"
+        preference:key="speech"
+        preference:title="@string/system_speech" >
+    </Preference>
+    <Preference
+        preference:icon="@drawable/ic_settings_inputs"
+        preference:key="inputs"
+        preference:title="@string/system_inputs" >
+    </Preference>
+    <Preference
+        preference:icon="@drawable/ic_settings_accessibility"
+        preference:key="accessibility"
+        preference:title="@string/system_accessibility" >
+    </Preference>
+    <Preference
+        preference:icon="@drawable/ic_settings_developeroptions"
+        preference:key="developer"
+        preference:title="@string/system_developer_options" >
+    </Preference>
+</PreferenceScreen>

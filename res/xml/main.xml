@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:preferenceheader="http://schemas.android.com/apk/res-auto" >
+
+    <header
+        preferenceheader:id="@+id/device"
+        preferenceheader:header_title="@string/header_category_device"
+        preferenceheader:preference="@xml/device" />
+    <header
+        preferenceheader:id="@+id/preferences"
+        preferenceheader:header_title="@string/header_category_preferences"
+        preferenceheader:preference="@xml/preferences" />
+    <header
+        preferenceheader:id="@+id/personal"
+        preferenceheader:header_title="@string/header_category_personal"
+        preferenceheader:preference="@xml/personal" />
+
+</preference-headers>

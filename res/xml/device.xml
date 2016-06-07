@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:preference="http://schemas.android.com/apk/res-auto" >
+
+    <Preference
+        preference:icon="@drawable/ic_settings_wifi_4"
+        preference:key="network"
+        preference:title="@string/connectivity_network" >
+    </Preference>
+    <Preference
+        preference:icon="@drawable/ic_settings_cast"
+        preference:key="cast"
+        preference:title="@string/system_cast" >
+    </Preference>
+    <Preference
+        preference:icon="@drawable/ic_settings_sound_on"
+        preference:key="sound_effects"
+        preference:title="@string/device_sound_effects" >
+    </Preference>
+    <Preference
+        preference:icon="@drawable/ic_settings_apps"
+        preference:key="apps"
+        preference:title="@string/device_apps" >
+    </Preference>
+    <Preference
+        preference:icon="@drawable/ic_settings_daydream"
+        preference:key="daydream"
+        preference:title="@string/device_daydream" >
+    </Preference>
+    <Preference
+        preference:icon="@drawable/ic_settings_storage"
+        preference:key="storagereset"
+        preference:title="@string/device_storage_reset" >
+    </Preference>
+    <Preference
+        preference:icon="@drawable/ic_settings_about"
+        preference:key="about_device"
+        preference:title="@string/about_preference">
+    </Preference>
+</PreferenceScreen>

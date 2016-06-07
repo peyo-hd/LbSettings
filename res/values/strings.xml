@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LbSettings</string>
+        
+    <!-- Top level headers -->
+    <skip />
+    <!-- Header title for device [CHAR LIMIT=50] -->
+    <string name="header_category_device">Device</string>
+    <!-- Header title for preferences [CHAR LIMIT=50] -->
+    <string name="header_category_preferences">Preferences</string>
+    <!-- Header title for personal [CHAR LIMIT=50] -->
+    <string name="header_category_personal">Personal</string>
+
+    <!-- Device preferences -->
+    <skip />
+    <!-- Preference which changes daydream settings. [CHAR LIMIT=50] -->
+    <string name="device_daydream">Daydream</string>
+    <!-- Preference which changes display settings. [CHAR LIMIT=50] -->
+    <string name="device_display">Display</string>
+    <!-- Preference and title which changes system sounds settings. [CHAR LIMIT=50] -->
+    <string name="device_sound_effects">System sounds</string>
+    <!-- Preference which manages apps. [CHAR LIMIT=50] -->
+    <string name="device_apps">Apps</string>
+    <!-- Preference which shows storage status. [CHAR LIMIT=50] -->
+    <string name="device_storage_reset">Storage &amp; reset</string>
+    <!-- Preference which shows storage status. [CHAR LIMIT=50] -->
+    <string name="device_storage">Storage</string>
+    <!-- Preference which manages backup settings. [CHAR LIMIT=50] -->
+    <string name="device_backup_restore">Backup &amp; restore</string>
+    <!-- Preference which shows reset options [CHAR LIMIT=50] -->
+    <string name="device_reset">Factory data reset</string>
+    <!-- Preference which sets the device's display calibration. [CHAR LIMIT=50] -->
+    <string name="device_calibration">Calibration</string>
+    
+    <!-- System -->
+    <skip />
+    <!-- Preference which manages cast settings. [CHAR LIMIT=50] -->
+    <string name="system_cast">Google Cast</string>
+    <!-- Preference which manages date / time settings. [CHAR LIMIT=50] -->
+    <string name="system_date_time">Date &amp; time</string>
+    <!-- Preference which manages language settings. [CHAR LIMIT=50] -->
+    <string name="system_language">Language</string>
+    <!-- Preference which manages input method settings. [CHAR LIMIT=50] -->
+    <string name="system_keyboard">Keyboard</string>
+    <!-- Preference which manages home screen settings. [CHAR LIMIT=50] -->
+    <string name="system_home">Home screen</string>
+    <!-- Preference which manages search and google now settings. [CHAR LIMIT=50] -->
+    <string name="system_search">Search</string>
+    <!-- Preference which manages security settings. [CHAR LIMIT=50] -->
+    <string name="system_security">Security &amp; restrictions</string>
+    <!-- Preference which manages speech recognition settings. [CHAR LIMIT=50] -->
+    <string name="system_speech">Speech</string>
+    <!-- Preference which manages TV inputs. [CHAR LIMIT=50] -->
+    <string name="system_inputs">Inputs</string>
+    <!-- Preference which manages accessibility settings. [CHAR LIMIT=50] -->
+    <string name="system_accessibility">Accessibility</string>
+    <!-- Preference which manages developer options. [CHAR LIMIT=50] -->
+    <string name="system_developer_options">Developer options</string>
+    <!-- Preference which manages Diagnostic and Usage reporting -->
+    <string name="system_diagnostic">Usage &amp; Diagnostics</string>
+        <!-- Title for Location in System Settings [CHAR LIMIT=50] -->
+    <string name="system_location">Location</string>
+    
+    <!-- Account preferences -->
+    <skip />
+    <!-- Preference which adds an account [CHAR LIMIT=50] -->
+    <string name="add_account">Add account</string>
+    
+    <!-- About -->
+    <skip />
+    <!-- Preference which shows about screen with legal info, model, etc. [CHAR LIMIT=50] -->
+    <string name="about_preference">About</string>
+
+    <!-- Connectivity preferences -->
+    <skip />
+    <!-- Top level network card title. [CHAR LIMIT=50] -->
+    <string name="connectivity_network">Network</string>
+</resources>
