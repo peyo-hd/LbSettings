@@ -1,0 +1,30 @@
+[
+    {
+	"icon": "ic_settings_wifi_4",
+	"title": "connectivity_network"
+    },
+    {
+	"icon": "ic_settings_cast",
+	"title": "system_cast"
+    },
+    {
+	"icon": "ic_settings_sound_on",
+	"title": "device_sound_effects"
+    },
+    {
+	"icon": "ic_settings_apps",
+	"title": "device_apps"
+    },
+    {
+	"icon": "ic_settings_daydream",
+	"title": "device_daydream"
+    },
+    {
+	"icon": "ic_settings_storage",
+	"title": "device_storage_reset"
+    },
+    {
+	"icon": "ic_settings_about",
+	"title": "about_preference"
+    }
+]

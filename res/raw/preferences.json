@@ -1,0 +1,38 @@
+[
+  {
+    "icon": "ic_settings_datetime",
+    "title": "system_date_time"
+  },
+  {
+    "icon": "ic_settings_language",
+    "title": "system_language"
+  },
+  {
+    "icon": "ic_settings_keyboard",
+    "title": "system_keyboard"
+  },
+  {
+    "icon": "ic_settings_home",
+    "title": "system_home"
+  },
+  {
+    "icon": "ic_settings_search",
+    "title": "system_search"
+  },
+  {
+    "icon": "ic_settings_texttospeach",
+    "title": "system_speech"
+  },
+  {
+    "icon": "ic_settings_inputs",
+    "title": "system_inputs"
+  },
+  {
+    "icon": "ic_settings_accessibility",
+    "title": "system_accessibility"
+  },
+  {
+    "icon": "ic_settings_developeroptions",
+    "title": "system_developer_options"
+  }
+]

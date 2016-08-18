@@ -8,7 +8,8 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v4 \
     android-support-v7-recyclerview \
-    android-support-v17-leanback
+    android-support-v17-leanback \
+    gson-2.7
 
 LOCAL_RESOURCE_DIR := \
     $(TOP)/frameworks/support/v17/leanback/res \
@@ -22,3 +23,7 @@ LOCAL_AAPT_FLAGS := \
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
 include $(BUILD_PACKAGE)
+
+include $(CLEAR_VARS)
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := gson-2.7:libs/gson-2.7.jar
+include $(BUILD_MULTI_PREBUILT)

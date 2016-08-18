@@ -1,0 +1,18 @@
+[
+  {
+    "icon": "ic_settings_add",
+    "title": "add_account"
+  },
+  {
+    "icon": "ic_settings_location",
+    "title": "system_location"
+  },
+  {
+    "icon": "ic_settings_security",
+    "title": "system_security"
+  },
+  {
+    "icon": "ic_settings_diagnostic",
+    "title": "system_diagnostic"
+  }
+]
