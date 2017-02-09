@@ -9,12 +9,10 @@ public class MenuItem {
     @SerializedName("title") private String mTitle = "";
 
     public int getIconRes(Context context) {
-        return context.getResources().getIdentifier(mIcon, "drawable",
-                context.getPackageName());
+        return context.getResources().getIdentifier(mIcon, "drawable", context.getPackageName());
     }
     public int getTitleRes(Context context) {
-        return context.getResources().getIdentifier(mTitle, "string",
-                context.getPackageName());
+        return context.getResources().getIdentifier(mTitle, "string", context.getPackageName());
     }
 
 }

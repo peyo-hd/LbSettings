@@ -5,11 +5,11 @@
     <!-- Top level headers -->
     <skip />
     <!-- Header title for device [CHAR LIMIT=50] -->
-    <string name="header_category_device">Device</string>
+    <string name="device">Device</string>
     <!-- Header title for preferences [CHAR LIMIT=50] -->
-    <string name="header_category_preferences">Preferences</string>
+    <string name="preferences">Preferences</string>
     <!-- Header title for personal [CHAR LIMIT=50] -->
-    <string name="header_category_personal">Personal</string>
+    <string name="personal">Personal</string>
 
     <!-- Device preferences -->
     <skip />
