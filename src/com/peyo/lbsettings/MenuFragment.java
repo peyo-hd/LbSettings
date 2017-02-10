@@ -1,5 +1,6 @@
 package com.peyo.lbsettings;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v17.leanback.app.BrowseFragment;
@@ -7,6 +8,10 @@ import android.support.v17.leanback.widget.ArrayObjectAdapter;
 import android.support.v17.leanback.widget.HeaderItem;
 import android.support.v17.leanback.widget.ListRow;
 import android.support.v17.leanback.widget.ListRowPresenter;
+import android.support.v17.leanback.widget.OnItemViewClickedListener;
+import android.support.v17.leanback.widget.Presenter.ViewHolder;
+import android.support.v17.leanback.widget.Row;
+import android.support.v17.leanback.widget.RowPresenter;
 
 import com.google.gson.Gson;
 
@@ -25,6 +30,18 @@ public class MenuFragment extends BrowseFragment {
         setAdapter(rows);
 
         setHeadersState(HEADERS_DISABLED);
+
+        setOnItemViewClickedListener(new OnItemViewClickedListener() {
+            @Override
+            public void onItemClicked(ViewHolder vh, Object item,
+                               RowPresenter.ViewHolder rowViewHolder, Row row) {
+                Intent intent = new Intent(getContext(), DetailsActivity.class);
+                MenuItem menuItem = (MenuItem) item;
+                intent.putExtra("IconRes", menuItem.getIconRes(getContext()));
+                intent.putExtra("TitleRes", menuItem.getTitleRes(getContext()));
+                startActivity(intent);
+            }
+        });
     }
 
     ListRow getRow(int titleResId, int jsonResId) {
