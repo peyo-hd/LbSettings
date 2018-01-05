@@ -43,7 +43,7 @@ public class DetailsActivity extends Activity {
 			ClassPresenterSelector selector = new ClassPresenterSelector();
 			selector.addClassPresenter(DetailsOverviewRow.class,
 					new FullWidthDetailsOverviewRowPresenter(
-							new com.peyo.lbsettings.DetailsActivity.MenuDetailsFragment.DetailsDescriptionPresenter()));
+							new DetailsDescriptionPresenter()));
 			selector.addClassPresenter(ListRow.class, new ListRowPresenter());
 
 			ArrayObjectAdapter rows = new ArrayObjectAdapter(selector);
