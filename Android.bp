@@ -1,0 +1,31 @@
+android_app {
+    name: "LbSettings",
+    tags: ["optional"],
+    optimize: {
+      enabled: false,
+    },
+    sdk_version: "current",
+
+    srcs: ["src/**/*.kt"],
+    resource_dirs: ["res"],
+    static_libs: [
+      "androidx.legacy_legacy-support-v4",
+      "androidx.recyclerview_recyclerview",
+      "androidx.leanback_leanback",
+      "gson-2.8.5",
+    ],
+}
+
+java_import {
+    name: "gson-2.8.5-nodeps",
+    jars: ["libs/gson-2.8.5.jar"],
+    sdk_version: "current",
+}
+
+java_library_static {
+    name: "gson-2.8.5",
+    static_libs: [
+        "gson-2.8.5-nodeps",
+    ],
+    sdk_version: "current",
+}
