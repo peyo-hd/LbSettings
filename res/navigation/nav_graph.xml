@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menu_fragment">
+
+    <fragment
+        android:id="@+id/menu_fragment"
+        android:name="com.peyo.lbsettings.MenuFragment"
+        android:label="Menu Browser" >
+        <action
+            android:id="@+id/action_menu_to_details"
+            app:destination="@id/details_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/details_fragment"
+        android:name="com.peyo.lbsettings.DetailsFragment"
+        android:label="Details Fragment">
+        <argument
+            android:name="title_resource"
+            app:argType="integer"/>
+        <argument
+            android:name="icon_resource"
+            app:argType="integer"/>
+        <action
+            android:id="@+id/action_details_to_guided"
+            app:destination="@id/guided_fragment" />
+        <action
+            android:id="@+id/action_details_self"
+            app:destination="@id/details_fragment"
+            app:popUpTo="@+id/details_fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/guided_fragment"
+        android:name="com.peyo.lbsettings.GuidedFragment"
+        android:label="Guided Fragment">
+        <argument
+            android:name="title_resource"
+            app:argType="integer"/>
+        <argument
+            android:name="icon_resource"
+            app:argType="integer"/>
+    </fragment>
+</navigation>
